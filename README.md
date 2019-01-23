@@ -7,8 +7,9 @@ The real discussion is happening in the #londonhack2019 channel at [swung.slack.
 ## Information
 * [Location](location.md)
 * [Schedule](schedule.md)
+* [Projects and sprints](projects.md)
 * [Funding](funding.md)
-* 
+*
 
 ## Team
 * Filippo
