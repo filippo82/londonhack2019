@@ -1,8 +1,4 @@
 # Information about the location
 
-## Possible locations
-*
-
-## Resources
-* [http://www.eventtribe.com/t/free-venues-in-london/64](http://www.eventtribe.com/t/free-venues-in-london/64)
-*
+## Venue
+The Hackathon will be held at [Work.Life @ Clerkenwell](https://work.life/locations/clerkenwell/) which is located at [ 20 Jerusalem Passage, Clerkenwell, London EC1V 4JP](https://goo.gl/maps/B6m9NrEPMJ32).
