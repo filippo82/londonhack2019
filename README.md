@@ -8,11 +8,7 @@ Please fill out this [Google Form](https://goo.gl/forms/2CLk8BGspiSvObkj1) if yo
 The real discussion is happening in the #londonhack2019 channel at [swung.slack.com](swung.slack.com). Join us there!
 
 ## Information
-* [Location](location.md)
-* [Schedule](schedule.md)
-* [Projects and sprints](projects.md)
-* [Funding](funding.md)
-*
+Updated information can be found on the [official website](http://www.londonhack2019.com/).
 
 ## Team
 * Filippo - @filippo82 on #londonhack2019
