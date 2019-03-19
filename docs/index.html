@@ -142,7 +142,7 @@
           <h2 class="mb-5">Registration</h2>
           <ul class="fa-ul mb-0">
             <li>
-              <i class="fa-li fa fa-check text-warning"></i>
+              <i class="fa-li fa fa-address-card"></i>
               Please fill out this <a href="https://goo.gl/forms/2CLk8BGspiSvObkj1">Google Form</a>
               if you are interested in attending the event. Soon we will open the official registration on <a href="https://www.eventbrite.co.uk">Eventbrite</a>.</li>
           </ul>
@@ -298,31 +298,70 @@
           <div class="subheading mb-2">Projects</div>
           <ul class="fa-ul mb-3">
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fa fa-briefcase"></i>
               Project One</li>
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fa fa-briefcase"></i>
               ML and DL respository for the Geosciences</li>
           </ul>
 
           <div class="subheading mb-2">Sprints</div>
           <ul class="fa-ul mb-3">
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fa fa-bolt"></i>
               <a href="https://github.com/equinor/segyio">segyio</a></li>
             <li>
-              <i class="fa-li fa fa-check"></i>
-              <a href="https://github.com/opesci/devito">devito</a></li>
+              <i class="fa-li fa fa-bolt"></i>
+              <a href="https://github.com/opesci/devito">devito</a>
+              is an open-source software to implement optimised finite difference (FD) computation
+              from high-level symbolic problem definitions.
+              Starting from symbolic equations defined in SymPy,
+              Devito employs automated code generation and just-in-time (JIT) compilation
+              to execute FD kernels on multiple computer platforms.
+              Devito's motivating application is exploration seismology,
+              particularly FWI and RTM.
+              Fundamental features such as sophisticated boundary conditions
+              and interpolation are supported.
+              Parallelism (both shared- and distributed-memory)
+              as well as classic stencil optimizations are automatically introduced by the Devito compiler.
+              
+              There are several options for the sprint, including:
+              <ul class="fa-ul mb-3">
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  Developing a complete real-life example going from raw real data to an inversion
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  New Jupyter notebooks (e.g., checkpointing, boundary conditions, ...).
+                  This is perfect for someone who needs to learn Devito from scratch.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  MMS for TTI and elastic operators.
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  Prototyping a GPU backend, by manually writing the CUDA/OpenCL/...
+                  code that Devito will have to generate (e.g., how do we do source injection on the GPU?)
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  We're open to ideas!
+                </li>
+              </ul>
+
+            </li>
           </ul>
 		
           <div class="subheading mb-2">Tutorials</div>
           <ul class="fa-ul mb-3">
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fa fa-book"></i>
               <a href="https://pytorch.org/">Pytorch</a> - Organized by @lmoss
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fa fa-book"></i>
               <a href="https://dask.org/">Dask</a>
             </li>
           </ul>
@@ -338,19 +377,19 @@
 		
           <ul class="fa-ul mb-0">
             <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
+              <i class="fa-li fa fa-trophy"></i>
               <a href="https://agilescientific.com/">Agile Scientific</a>
             </li>
             <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
+              <i class="fa-li fa fa-trophy"></i>
               <a href="https://www.bp.com/en_gb/united-kingdom/home.html">BP</a>
             </li>
             <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
+              <i class="fa-li fa fa-trophy"></i>
               <a href="https://earthanalytics.ai">Earth Science Analytics</a>
             </li>
             <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
+              <i class="fa-li fa fa-trophy"></i>
               <a href="https://www.venture.co.uk/">Sword Venture</a>
             </li>
           </ul>
