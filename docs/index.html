@@ -309,7 +309,8 @@
           <ul class="fa-ul mb-3">
             <li>
               <i class="fa-li fa fa-bolt"></i>
-              <a href="https://github.com/equinor/segyio">segyio</a></li>
+              <a href="https://github.com/equinor/segyio">segyio</a>
+            </li>
             <li>
               <i class="fa-li fa fa-bolt"></i>
               <a href="https://github.com/opesci/devito">devito</a>
@@ -348,6 +349,47 @@
                 <li>
                   <i class="fa-li fa fa-minus"></i>
                   We're open to ideas!
+                </li>
+              </ul>
+
+            </li>
+            <li>
+              <i class="fa-li fa fa-bolt"></i>
+              <a href="https://github.com/equinor/pylops">pylops</a> - 
+	      Linear operators and inverse problems are at the core of many of the most used algorithms
+	      in signal processing, image processing, and remote sensing. In large-scale, real-life inverse
+	      problems creating dense (or sparse) matrices is most often not a viable, neither efficient solution;
+	      on the other hand, as-hoc code can be written to mimic the effect of a mathematical operator
+	      on a vector without requiring to define the matrix explicitly. While this is an old and well established concept,
+	      `Pylops <https://pylops.readthedocs.io/>`_ aims to make it easy and accessible to everyone within the Python ecosystem,
+	      being performant and scalable while maintaining the expressivity of the underlying linear algebra.
+              
+	      Some ideas for a sprint:
+              <ul class="fa-ul mb-3">
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  tackle some of the `GitHub issues <https://github.com/equinor/pylops>`_ (mostly new feature, this is not a place to fix the boring stuff)
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  create a class-bases (scikit-like) interface for solvers - to be added in v2.0.0
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  work on more solvers, e.g. improve `SPGL1 code <https://github.com/drrelyea/SPGL1_python_port>`_ (to be included in Pylops or perhaps scipy as discussed already with core scipy dev team)
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  investigate integration of dask for distributed computing of data-heavy inverse problems
+		  (multi-dimensional decon, Marchenko redatuming, pre-stack seismic inversion)
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  new tutorials with medical imaging applications combining Pylops and the ASTRA toolbox
+                </li>
+                <li>
+                  <i class="fa-li fa fa-minus"></i>
+                  anything you want to work on!
                 </li>
               </ul>
 
