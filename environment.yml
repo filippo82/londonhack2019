@@ -1,0 +1,8 @@
+name: londonhack
+dependencies:
+  - python=3.6
+  - pip
+  - numpy
+  - matplotlib
+  - pandas
+  - jupyter
